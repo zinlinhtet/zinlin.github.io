@@ -1,0 +1,395 @@
+/*.navbar-inverse{
+	background: black;
+;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+
+}*/
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+  display:none;
+}
+#talktome{
+	font-family: Source Sans Pro;
+	color: white;
+	position: absolute;
+	top: 190%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30pt;
+}
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background: white;
+	font-family: Source Sans Pro;
+
+
+}
+.skew{
+	margin-top: -200px;
+	padding: 200px 0;
+	transform: skew(0deg, 10deg);
+	background: #A9A9A9;
+}
+.content{
+	text-align: center;
+	transform: skew(0deg, -10deg);
+	padding-top: 60px;
+	padding-bottom: 100px; 
+}
+h1{
+	font-weight: lighter;
+	font-size: 40px;
+	
+}
+h4{
+	font-weight: lighter;
+	font-size: 60px;
+	text-align: center;
+	transform: skew(0deg, -10deg);
+
+}
+#aboutMe{
+	text-align: center;
+	position:absolute;
+	top: 60%;
+	visibility: hidden;
+}
+#phone{
+	text-align: center;
+	position:absolute;
+	top: 140%;
+	visibility: hidden;
+}
+p{
+	font-weight: lighter;
+	font-size: 20px;
+}   
+.whitepart{
+	padding-top: 140px;
+	color: black;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 180px;
+	background-attachment: fixed;
+}
+
+.blackpart{
+	background: #A9A9A9;
+	padding-top: 40px;
+	color: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 60px;
+	transform: skew(0deg, 10deg);
+}
+
+.bc{
+	background: #A9A9A9;
+	margin-top: -200px;
+	color: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 350px;
+}
+.bw{
+	background: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 400px;
+}
+
+
+
+::-webkit-scrollbar{										
+	width: 8px;											
+}												    
+::-webkit-scrollbar-thumb{							
+	/*border-radius: 10px;*/						
+	background-color: #a6a6a6;						
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);		
+}													
+::-webkit-scrollbar-track{							
+	/*border-radius: 10px;*/						
+	background-color: white;						
+	/*box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/	
+}				
+
+/*////////////////////////////////////////////////////////////////*/
+#button{
+	color: #f7f7f7;
+	font-family: verdana;
+	width: 200px;
+	padding: 15px;
+	border: 2px solid #f7f7f7;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	transition: .5s;
+}
+
+#button:after{
+	content: '';
+	width: 0px;
+	height: 120%;
+	position: absolute;
+	left: -10%;
+	bottom: 0;
+	background-color: #f7f7f7;
+	transform: skewX(15deg);
+	z-index: -1;
+	transition: .5s;
+}
+
+#button:hover{
+	cursor: pointer;
+	color: #A9A9A9;
+}
+
+#button:hover:after{
+	left: -10%;
+	width: 120%;
+}
+/*//////////////////////////////////////////////*/
+#button1{
+	color: #f7f7f7;
+	font-family: verdana;
+	width: 200px;
+	padding: 15px;
+	border: 2px solid #f7f7f7;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	transition: .5s;
+}
+
+#button1:after{
+	content: '';
+	width: 0px;
+	height: 120%;
+	position: absolute;
+	left: -10%;
+	bottom: 0;
+	background-color: #f7f7f7;
+	transform: skewX(2deg);
+	z-index: -1;
+	transition: .5s;
+}
+
+#button1:hover{
+	cursor: pointer;
+	color: #A9A9A9;
+}
+
+#button1:hover:after{
+	left: -10%;
+	width: 120%;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+
+#button2{
+	color: #f7f7f7;
+	font-family: verdana;
+	width: 200px;
+	padding: 15px;
+	border: 2px solid #f7f7f7;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	transition: .5s;
+}
+
+#button2:after{
+	content: '';
+	width: 0px;
+	height: 120%;
+	position: absolute;
+	left: -10%;
+	bottom: 0;
+	background-color: #f7f7f7;
+	transform: skewX(15deg);
+	z-index: -1;
+	transition: .5s;
+}
+
+#button2:hover{
+	cursor: pointer;
+	color: #A9A9A9;
+}
+
+#button2:hover:after{
+	left: -10%;
+	width: 120%;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#triangle{
+	position: absolute;
+	top: 92%;
+	left: 10%;
+	animation: move 5s infinite;
+	color: red;
+}
+
+@-webkit-keyframes move{
+	0%{margin-top: -70px;}
+	10%{margin-top: -100px;}
+	20%{margin-top: -70px;}
+	30%{margin-top: -100px;}
+	40%{margin-top: -70px;}
+	50%{margin-top: -100px;
+	transform: rotateY(360deg);
+}
+
+	60%{margin-top: -70px;}
+	70%{margin-top: -100px;}
+	80%{margin-top: -70px;}
+	90%{margin-top: -100px;}
+	100%{margin-top: -70px;}
+}
+
+.triangle1{
+	position: absolute;
+	top: 92%;
+	left: 10%;
+	animation: movee 6s infinite;
+}
+
+@-webkit-keyframes movee{
+	0%{margin-top: -70px;}
+	10%{margin-top: -100px;}
+	20%{margin-top: -70px;}
+	30%{margin-top: -100px;}
+	40%{margin-top: -70px;}
+	50%{margin-top: -100px;
+	transform: rotateY(360deg);
+}
+
+	60%{margin-top: -70px;}
+	70%{margin-top: -100px;}
+	80%{margin-top: -70px;}
+	90%{margin-top: -100px;}
+	100%{margin-top: -70px;}
+}
+
+.triangle4{
+	position: absolute;
+	top: 133%;
+	left: 86%;
+	animation: xcross 7s infinite;
+}
+
+@-webkit-keyframes xcross{
+	0%{margin-top: -70px;}
+	10%{margin-top: -100px;}
+	20%{margin-top: -70px;}
+	30%{margin-top: -100px;}
+	40%{margin-top: -70px;}
+	50%{margin-top: -100px;
+	transform: rotateZ(400deg);
+}
+
+	60%{margin-top: -70px;}
+	70%{margin-top: -100px;}
+	80%{margin-top: -70px;}
+	90%{margin-top: -100px;}
+	100%{margin-top: -70px;}
+}
+
+.triangle3{
+	position: absolute;
+	top: 131%;
+	left: 86%;
+	animation: trianglethree 6s infinite;
+}
+
+@-webkit-keyframes trianglethree{
+	0%{margin-top: -70px;}
+	10%{margin-top: -100px;}
+	20%{margin-top: -70px;}
+	30%{margin-top: -100px;}
+	40%{margin-top: -70px;}
+	50%{margin-top: -100px;
+	transform: rotateZ(400deg);
+}
+
+	60%{margin-top: -70px;}
+	70%{margin-top: -100px;}
+	80%{margin-top: -70px;}
+	90%{margin-top: -100px;}
+	100%{margin-top: -70px;}
+}
+
+
+#lastpara{
+	font-family: Source Sans Pro;
+	text-align: center;
+	color: #A9A9A9;
+	position: absolute;
+	top: 290%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+	padding-bottom: 100px;
+
+}
+
+/*////////////////////////////////////////////////////////////////////
+				Icon Hover Effct
+////////////////////////////////////////////////////////////////////*/
+.box {
+	position: absolute;
+	top: 260%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.icon {
+	width: 120px;
+	height: 115px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	font-size: 18px;
+}
+
+span{
+	color: #A9A9A9;
+}
+
+.icon a{
+	
+	color: #A9A9A9;
+	width: 120px;
+	height: 115px;
+	font-size: 60px;
+	line-height: 100px;
+	display: block;
+	transition: 0.4s all;
+	
+}
+
+.icon:hover > a{		
+	height: 70px;
+	line-height: 70px;
+}
+
+/*////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////*/
